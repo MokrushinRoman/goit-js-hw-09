@@ -2,7 +2,7 @@ import { failureMessage, finishMessage } from './functions/task-2/notify';
 import { anableBtn, disableBtn } from './functions/task-2/disabledBtn';
 import { flatpickrFunc, timerDeadline } from './functions/task-2/flatpickr';
 // import Timer from './functions//task-2/timer';
-import timer from './functions/task-2/timer';
+import { timer } from './functions/task-2/timer';
 import clockFace from './functions/task-2/clock-face';
 // get refs : input, btn, timer
 const refs = {

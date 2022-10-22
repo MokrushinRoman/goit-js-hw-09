@@ -66,7 +66,7 @@
 }
 */
 
-export default timer = {
+export const timer = {
   intervalId: null,
   refs: {},
 
