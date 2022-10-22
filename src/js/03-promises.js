@@ -56,7 +56,8 @@ function onBtnClick(e) {
   e.preventDefault();
   disableBtn();
   const { delay, amount, step } = formData;
-  for (i = 0; i < amount; i += 1) {
+  for (let i = 0; i < amount; i += 1) {
+    console.log(i);
     const PromiceDelay = step * i + delay;
     createPromise(i + 1, PromiceDelay)
       .then(onSuccess)
